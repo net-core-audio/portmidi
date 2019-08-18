@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7EBC0D34-333C-47F7-A98B-6A0426DCA17B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3AE90121-2CA5-4FB8-AADD-07E3DC3CC899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortMidi", "src\PortMidi\PortMidi.csproj", "{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortMidi.Tests", "tests\PortMidi.Tests\PortMidi.Tests.csproj", "{7B87BE61-34A1-4BA9-9529-A43CBF5CE915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E} = {7EBC0D34-333C-47F7-A98B-6A0426DCA17B}
+		{7B87BE61-34A1-4BA9-9529-A43CBF5CE915} = {3AE90121-2CA5-4FB8-AADD-07E3DC3CC899}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7E9E5F-6698-47CC-A4B9-B187AA39ED0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B87BE61-34A1-4BA9-9529-A43CBF5CE915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B87BE61-34A1-4BA9-9529-A43CBF5CE915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B87BE61-34A1-4BA9-9529-A43CBF5CE915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B87BE61-34A1-4BA9-9529-A43CBF5CE915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
