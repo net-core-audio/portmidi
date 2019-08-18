@@ -2,6 +2,17 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>PortMidi</Title>
+        <Description>Cross Platform PortMidi for .NET</Description>
+        <Copyright>Copyright @ 2019 .NET Core Audio</Copyright>
+        <PackageProjectUrl>https://github.com/net-core-audio/portmidi</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/net-core-audio/portmidi/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/net-core-audio/portmidi.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>portmidi, net, net-core</PackageTags>
+        <Company>.NET Core Audio</Company>
+        <PackageId>libportmidi</PackageId>
     </PropertyGroup>
 
 </Project>
