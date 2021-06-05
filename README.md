@@ -8,7 +8,7 @@ Cross Platform .NET PortMidi library
 ### Linux (Ubuntu)
 
 ```bash
-$ apt-get install libportmidi0
+$ apt-get install libportmidi-dev
 ```
 
 ### Mac OS
